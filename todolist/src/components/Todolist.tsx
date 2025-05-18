@@ -191,7 +191,7 @@ const Todolist = () => {
                     onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                       setEditText(e.target.value)
                     }
-                    className="border-2 rounded-md p-1 w-[200px]"
+                    className=" font-mono border-2 rounded-md p-1 w-[200px]"
                     autoFocus
                   />
                   <button
@@ -205,7 +205,7 @@ const Todolist = () => {
                       setEditingTask(null);
                       setEditText("");
                     }}
-                    className="bg-green-600 text-white rounded-md p-1"
+                    className="bg-purple-700 font-mono text-white rounded-md p-1"
                   >
                     Save
                   </button>
@@ -214,7 +214,7 @@ const Todolist = () => {
                       setEditingTask(null);
                       setEditText("");
                     }}
-                    className="bg-red-600 text-white rounded-md p-1"
+                    className="bg-red-600 font-mono text-white rounded-md p-1"
                   >
                     Cancel
                   </button>
