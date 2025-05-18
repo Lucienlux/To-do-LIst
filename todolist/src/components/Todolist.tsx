@@ -61,7 +61,7 @@ const Todolist = () => {
                 }
               }}
               type="text"
-              className="border-2 rounded-md p-2 w-[300px]"
+              className="border-2 rounded-md p-2 w-[600px]"
               placeholder="Add a new task"
             />
             <button
