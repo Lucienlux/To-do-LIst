@@ -8,7 +8,10 @@ const Header = () => {
         To Do List
       </h1>
       <div className="flex-1 flex justify-end">
-        <a className="flex items-center" href="https://github.com/Lucienlux">
+        <a
+          className="flex font-mono items-center"
+          href="https://github.com/Lucienlux"
+        >
           Check out my github
         </a>
       </div>
